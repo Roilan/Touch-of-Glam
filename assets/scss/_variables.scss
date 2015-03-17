@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'amazone';
+  src: url("../../assets/fonts/amazone.ttf")
+}
+
+// breakpoints - media queries
+$mobile: 450px;
+$small: 650px;
+$medium: 960px;
+$large: 1200px;
+
+// colors
+$hotpink: #dc829b;
+$redpink: #E02458;
+$white: #ffffff;
+
+$landingBgColor: #252525;
+
+
+// font
+$fontfamily: 'amazone', Helvetica, Arial, sans-serif;
+
+// neat
+$border-box-sizing: true !default;
