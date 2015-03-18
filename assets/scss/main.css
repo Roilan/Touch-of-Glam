@@ -1,7 +1,13 @@
 @font-face {
   font-family: 'amazone';
   src: url("../../assets/fonts/amazone.ttf"); }
+h1, h2, h3 {
+  font-family: "amazone", Helvetica, Arial, sans-serif; }
+
 html, body {
+  height: 100%; }
+
+section {
   height: 100%; }
 
 /* Neat 1.7.0
@@ -49,5 +55,63 @@ html {
         .landing .row .headline {
           font-size: 2.8em;
           margin: 0 25%; } }
+
+.about {
+  padding: 80px 20px;
+  background-color: #f9f9f9; }
+  .about h2 {
+    text-align: center; }
+  .about section {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    .about section:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .about section .img-container {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .about section .img-container:last-child {
+        margin-right: 0; }
+      .about section .img-container img {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        .about section .img-container img:last-child {
+          margin-right: 0; }
+      @media screen and (max-width: 650px) {
+        .about section .img-container {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 40.29137%;
+          float: none;
+          margin: 0 auto;
+          text-align: center; }
+          .about section .img-container:last-child {
+            margin-right: 0; } }
+    .about section .description {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      line-height: 1.5em; }
+      .about section .description:last-child {
+        margin-right: 0; }
+      .about section .description p {
+        margin-top: 25px;
+        font-size: 1.1em; }
+      @media screen and (max-width: 650px) {
+        .about section .description {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%; }
+          .about section .description:last-child {
+            margin-right: 0; } }
 
 /*# sourceMappingURL=main.css.map */
