@@ -25,7 +25,7 @@ html {
   box-sizing: inherit; }
 
 .landing {
-  background: url("../../../assets/img/landing.jpg");
+  background: url("../../assets/img/landing.jpg");
   background-size: cover;
   display: table;
   height: 100%;
