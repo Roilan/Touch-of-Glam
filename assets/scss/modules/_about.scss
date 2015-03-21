@@ -31,16 +31,13 @@
       line-height: 1.5em;
 
       p {
-        font-size: 1.4em;
-        margin-top: 25px;
-//        &:last-child {
-//          margin-top: 80px;
-//        }
+        font-size: 1.5em;
       }
-      //max-width: 740px;
+
       @include media(max-width $small) {
         @include span-columns(12);
       } // media query
+
     } // p
 
   } // article
