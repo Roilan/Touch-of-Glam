@@ -59,7 +59,7 @@ html {
           margin: 0 25%; } }
 
 .about-container {
-  padding: 80px 20px;
+  padding: 20px;
   background-color: #f9f9f9; }
   .about-container h2 {
     text-align: center; }
@@ -115,5 +115,11 @@ html {
           width: 100%; }
           .about-container section .about-me:last-child {
             margin-right: 0; } }
+
+.work-container {
+  padding: 20px;
+  background-color: #f9f9f9; }
+  .work-container h2 {
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
