@@ -3,11 +3,10 @@
   background-color: $beige;
 
   h2 {
-    //@include margin(10px 0 25px 0);
     text-align: center;
   } // h2
 
-  section {
+  .about-content {
     @include outer-container;
 
     .img-container{
