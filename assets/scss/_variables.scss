@@ -1,11 +1,9 @@
-@font-face {
-  font-family: 'amazone';
-  src: url("../../assets/fonts/amazone.ttf")
-}
+// font
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:400,600);
 
 // breakpoints - media queries
 $mobile: 450px;
-$small: 650px;
+$small: 750px;
 $medium: 960px;
 $large: 1200px;
 
@@ -19,7 +17,9 @@ $landingBgColor: #252525;
 
 
 // font
-$fontfamily: 'amazone', Helvetica, Arial, sans-serif;
+$fontfamily: 'Josefin Slab', Helvetica, Arial, sans-serif;
+$normal: 400;
+$bold: 600;
 
 // neat
 $border-box-sizing: true !default;

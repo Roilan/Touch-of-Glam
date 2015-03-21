@@ -1,3 +1,8 @@
 h1, h2, h3 {
   font-family: $fontfamily;
 }
+
+p {
+  font-family: $fontfamily;
+  font-weight: $bold;
+}

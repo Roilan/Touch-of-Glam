@@ -1,4 +1,4 @@
-.about {
+.about-container {
   @include padding(80px 20px);
   background-color: $beige;
 
@@ -27,18 +27,18 @@
 
     } // img
 
-    .description {
+    .about-me {
       @include span-columns(8);
       line-height: 1.5em;
 
       p {
+        font-size: 1.4em;
         margin-top: 25px;
-        font-size: 1.1em;
 //        &:last-child {
 //          margin-top: 80px;
 //        }
       }
-
+      //max-width: 740px;
       @include media(max-width $small) {
         @include span-columns(12);
       } // media query

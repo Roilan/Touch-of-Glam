@@ -1,8 +1,10 @@
-@font-face {
-  font-family: 'amazone';
-  src: url("../../assets/fonts/amazone.ttf"); }
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:400,600);
 h1, h2, h3 {
-  font-family: "amazone", Helvetica, Arial, sans-serif; }
+  font-family: "Josefin Slab", Helvetica, Arial, sans-serif; }
+
+p {
+  font-family: "Josefin Slab", Helvetica, Arial, sans-serif;
+  font-weight: 600; }
 
 html, body {
   height: 100%; }
@@ -39,15 +41,15 @@ html {
       background-color: #252525;
       border: solid 2px #ffffff;
       color: #ffffff;
-      font-family: "amazone", Helvetica, Arial, sans-serif;
+      font-family: "Josefin Slab", Helvetica, Arial, sans-serif;
       font-size: 3em;
-      font-weight: bold;
+      font-weight: 600;
       margin: 0 30%;
       text-align: center; }
       @media screen and (max-width: 450px) {
         .landing .row .headline {
           margin: 0 15%; } }
-      @media screen and (max-width: 650px) {
+      @media screen and (max-width: 750px) {
         .landing .row .headline {
           font-size: 2em;
           margin: 0 25%; } }
@@ -56,35 +58,35 @@ html {
           font-size: 2.8em;
           margin: 0 25%; } }
 
-.about {
+.about-container {
   padding: 80px 20px;
   background-color: #f9f9f9; }
-  .about h2 {
+  .about-container h2 {
     text-align: center; }
-  .about section {
+  .about-container section {
     max-width: 68em;
     margin-left: auto;
     margin-right: auto; }
-    .about section:after {
+    .about-container section:after {
       content: "";
       display: table;
       clear: both; }
-    .about section .img-container {
+    .about-container section .img-container {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%; }
-      .about section .img-container:last-child {
+      .about-container section .img-container:last-child {
         margin-right: 0; }
-      .about section .img-container img {
+      .about-container section .img-container img {
         float: left;
         display: block;
         margin-right: 2.35765%;
         width: 100%; }
-        .about section .img-container img:last-child {
+        .about-container section .img-container img:last-child {
           margin-right: 0; }
-      @media screen and (max-width: 650px) {
-        .about section .img-container {
+      @media screen and (max-width: 750px) {
+        .about-container section .img-container {
           float: left;
           display: block;
           margin-right: 2.35765%;
@@ -92,26 +94,26 @@ html {
           float: none;
           margin: 0 auto;
           text-align: center; }
-          .about section .img-container:last-child {
+          .about-container section .img-container:last-child {
             margin-right: 0; } }
-    .about section .description {
+    .about-container section .about-me {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 65.88078%;
       line-height: 1.5em; }
-      .about section .description:last-child {
+      .about-container section .about-me:last-child {
         margin-right: 0; }
-      .about section .description p {
-        margin-top: 25px;
-        font-size: 1.1em; }
-      @media screen and (max-width: 650px) {
-        .about section .description {
+      .about-container section .about-me p {
+        font-size: 1.4em;
+        margin-top: 25px; }
+      @media screen and (max-width: 750px) {
+        .about-container section .about-me {
           float: left;
           display: block;
           margin-right: 2.35765%;
           width: 100%; }
-          .about section .description:last-child {
+          .about-container section .about-me:last-child {
             margin-right: 0; } }
 
 /*# sourceMappingURL=main.css.map */
