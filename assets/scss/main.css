@@ -194,7 +194,7 @@ html {
       @media screen and (max-width: 450px) {
         .landing .row .headline {
           margin: 0 15%; } }
-      @media screen and (max-width: 750px) {
+      @media screen and (max-width: 850px) {
         .landing .row .headline {
           font-size: 2em;
           margin: 0 25%; } }
@@ -230,7 +230,7 @@ html {
         width: 100%; }
         .about-container .about-content .img-container img:last-child {
           margin-right: 0; }
-      @media screen and (max-width: 750px) {
+      @media screen and (max-width: 850px) {
         .about-container .about-content .img-container {
           float: left;
           display: block;
@@ -250,8 +250,8 @@ html {
       .about-container .about-content .about-me:last-child {
         margin-right: 0; }
       .about-container .about-content .about-me p {
-        font-size: 1.5em; }
-      @media screen and (max-width: 750px) {
+        font-size: 1.35em; }
+      @media screen and (max-width: 850px) {
         .about-container .about-content .about-me {
           float: left;
           display: block;
