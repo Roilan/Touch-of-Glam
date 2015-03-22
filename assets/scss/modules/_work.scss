@@ -5,4 +5,19 @@
   h2 {
     text-align: center;
   }
+
+  .work-images {
+    @include margin(200px 0);
+    @include outer-container;
+    text-align: center;
+    
+    img {
+      width: 260px;
+    }
+
+    .top-row {
+      @include span-columns(12);
+    }
+
+  } // work-images
 }

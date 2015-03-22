@@ -265,5 +265,24 @@ html {
   background-color: #f9f9f9; }
   .work-container h2 {
     text-align: center; }
+  .work-container .work-images {
+    margin: 200px 0;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
+    .work-container .work-images:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .work-container .work-images img {
+      width: 260px; }
+    .work-container .work-images .top-row {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .work-container .work-images .top-row:last-child {
+        margin-right: 0; }
 
 /*# sourceMappingURL=main.css.map */
